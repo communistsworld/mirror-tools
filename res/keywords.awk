@@ -7,7 +7,7 @@ BEGIN {
 		printf "<!--\ngenerated "
 		system("date -u")
 		print "-->"
-		print "<title>keywords - marxists.xyz"</title>"
+		print "<title>keywords - marxists.xyz</title>"
 		# print "<title>keywords - redtexts.org mirror " NAME "</title>"
 		print "<meta name=\"viewport\" content=\"width=device-width\" />"
 		print "<meta charset=\"utf-8\" />"
