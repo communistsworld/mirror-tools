@@ -1,6 +1,6 @@
 #!/bin/sh
-# redtexts "mirror tool" makescript
-# by xat [https://tilde.town/~xat]
+# marxists.xyz makescript
+# forked from github.com/redtexts/mirror-tools 
 # in the public domain, 2018-
 
 # colours
@@ -19,7 +19,7 @@ D_HTML="./html/"
 D_EPUB="./epub/"
 D_MOBI="./mobi/"
 D_PDF="./pdf/"
-GIT_TXT="https://github.com/redtexts/texts"
+GIT_TXT="https://github.com/neueleninlekture/texts"
 
 # variables
 MAKEOPTS="-s -k"
@@ -125,7 +125,7 @@ pandoc -v | awk 'NR == 1 { exit $2 < 2 }' ||\
 which awk 2>&1 >/dev/null || errcho "\"awk\" not installed!"
 
 # start setup (ensure $MCONF exists and then load it)
-# echo "${bold}::: mirror.sh - create, maintain and update a redtexts mirror${reset}"
+# echo "${bold}::: mirror.sh - create, maintain and update a marxists.xyz mirror${reset}"
 if [ ! -e $AUTO ]; then
 	if [ -e $MCONF ]; then
 		printf "Previous configuration file found, do you want to use it again [Y/n]? "

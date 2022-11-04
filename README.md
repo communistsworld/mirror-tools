@@ -7,7 +7,7 @@
 To create an archive, run:
 
 ```sh
-git clone https://github.com/redtexts/mirror-tools
+git clone https://github.com/neueleninlekture/mirror-tools
 cd mirror-tools
 ./mirror.sh
 ```

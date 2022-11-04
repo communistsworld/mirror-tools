@@ -7,7 +7,8 @@ BEGIN {
 		printf "<!--\ngenerated "
 		system("date -u")
 		print "-->"
-		print "<title>redtexts mirror " NAME "</title>"
+		print "<title>marxists.xyz"</title>"
+		# print "<title>redtexts mirror " NAME "</title>"
 		print "<meta name=\"viewport\" content=\"width=device-width\" />"
 		print "<meta charset=\"utf-8\" />"
 		print "<link rel=\"stylesheet\" href=\"./style.css\">"
@@ -49,7 +50,7 @@ END {
 		while ((getline < "./res/footer.txt") > 0)
 				print;
 		print "<footer>"
-		print "<a href=\"https://github.com/redtexts/mirror-tools\">mirror tools</a>"
+		print "<a href=\"https://github.com/neueleninlekture/mirror-tools\">mirror tools</a>"
 		print "| <a href=\"keywords.html\">keywords</a>"
 		if (WMAST)
 			print "| <a href=\"" WMAST "\">web master</a>"

@@ -75,7 +75,7 @@ $endif$
 $body$
 </article>
 <footer>
-	redtexts.org mirror:
+	marxists.xyz mirror:
 	<a href="..">home</a>
 	$if(WMAST)$
 	| <a href="$WMAST$">web master</a>

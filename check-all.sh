@@ -1,6 +1,6 @@
 #!/bin/sh
-# redtexts text linter metascript
-# by xat [https://tilde.town/~xat]
+# marxists.xyz text linter metascript
+# forked from github.com/redtexts/mirror-tools 
 # in the public domain, 2020-
 
 find ./txt/ -name "*.md" -type f -print0 | \

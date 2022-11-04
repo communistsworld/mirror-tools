@@ -21,7 +21,7 @@
 						<blockquote>$description$</blockquote>
 						$endif$
 						$if(brand)$
-						<p id="source">From <a href="https://redtexts.org">red texts: communist text files</a></p>
+						<p id="source">From <a href="https://marxists.xyz">marxists.xyz</a></p>
 						$endif$
 				</div>
 				$else$
