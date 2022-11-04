@@ -1,0 +1,304 @@
+body {
+	background: #fff;
+	color: #222;
+	font-family: 'Noto Sans', 'Open Sans', Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	margin: 0 auto;
+	max-width: 50em;
+	padding: 1em 1em 0.5em 1em;
+}
+
+/* This is all of the header -- the big red "red texts" box as well as
+the metadata block in grey */
+
+header {
+	background: whitesmoke;
+	border: 1px silver solid;
+	border-radius: 5px;
+	padding: 1em;
+}
+
+/* this is specifically just the grey metadata box; */
+
+header.md {
+	margin-top: .5em;
+}
+
+/* Controls the indentation of the description blockquote in the header */
+
+header blockquote {
+	margin: 0 5%;
+	hyphens: auto;
+}
+
+/* Controls the size of the article title in the header */
+
+header h1 {
+	font-size: 1.7em;
+	margin: 0;
+}
+
+/* Controls the size of the author name in the header */
+
+header h2 {
+	font-size: 1.0em;
+	margin-top: 0;
+}
+
+/* Controls the hyperlinked author name; hyperlink leads back to author's
+position in the table on index.html. */
+
+header h2 a {
+	font-style: italic;
+}
+
+/* Controls the gap between the description blockquote and the end of the
+header box. */
+
+header p {
+	hyphens: auto;
+	margin: 0;
+	overflow-wrap: break-word;
+}
+
+/* Controls the "Download: ..." text in article metadata box.
+Not used right now.
+
+header p#dl {
+	float: right;
+	font-size: smaller;
+	padding-top: 0.5em;
+}
+
+/* If I offered more than just epub, this would insert a pipe between format
+links. Interesting code.
+
+header p#dl a:not(:first-of-type)::before {
+	content: "| "; color: #222;
+}
+
+*/
+
+/* Controls the "Keywords: ..." text in article metadata box */
+
+header p#kw {
+	font-size: smaller;
+	padding-top: 0.5em;
+}
+
+/* Style these in red */
+
+h1, h2, h2 a, h3, header a, p a, li a, footer a {
+	color: #FD3D3D;
+}
+
+a {
+	text-decoration: none;
+	word-wrap: break-word;
+}
+
+/* This is used only to set off footnotes from rest of text. */
+
+hr {
+	border-top: 1px solid #FD3D3D;
+	border-width: 1px;
+}
+
+/* Table styling */
+
+table {
+	border-collapse: collapse;
+	margin: 1em 0;
+	width: 100%;
+}
+
+th, td {
+	border: 1px gray solid;
+	padding: 4px;
+	text-align: left;
+}
+
+thead th {
+	background: silver;
+}
+
+th {
+	background: whitesmoke;
+}
+
+th a {
+	color: black;
+}
+
+
+th.t {
+	background: gainsboro;
+	text-align: right;
+}
+
+
+th.t a {
+	font-style: italic;
+}
+
+footer {
+	border-top: 1px solid #FD3D3D;
+	font-size: small;
+	margin-top: 0.5em;
+	padding-top: 0.5em;
+	text-align: right;
+}
+
+/*********************************/
+/* "Red texts..." top banner box */
+/*********************************/
+
+header.topbanner {
+	background: #FD3D3D;
+	font-size: 1.25em;
+	margin: auto;
+	padding: .5em;
+	text-align: center;
+}
+
+/* Prevent the topbanner from being huge; h1 header used on index.html, h2
+header on articles. */
+
+header.topbanner h1 {
+	font-size: 1.7em;
+	margin: 0em;
+}
+
+header.topbanner h2 {
+	font-size: 1.7em;
+	margin: 0em;
+}
+
+/* Controls the "Texts | ..." text in top banner box. */
+
+header.topbanner ul {
+	font-size: 1.25em;
+	margin: 0em;
+	padding: 0em;
+}
+
+/* Make it so that "texts", "about," and "links" links in the */
+/* topbanner appear in a single line */
+
+header.topbanner li {
+	display: inline;
+	padding: 0.5em;
+}
+
+/* Don't especially style the links in the header */
+
+header.topbanner a {
+	color: #000;
+	font-size: 1.25em;
+	font-style: normal;
+	text-decoration: none;
+}
+
+/**********/
+/* mobile */
+/**********/
+
+@media (max-width: 54em) {
+
+body {
+	max-width: 100vw;
+	padding:0;
+	width: 100vw;
+}
+
+header {
+	border-radius: 0;
+	border-width:0;
+}
+
+header h1, header h2 {
+	margin-left: 0;
+}
+
+header p#dl {
+	float: none;
+}
+
+header p#dl, header #kw {
+	text-align: right;
+}
+
+p, h1, h2, h3, h4 {
+	margin: 16px;
+}
+
+header.topbanner h1 {
+	font-size: .8em;
+	margin: 0em;
+}
+
+header.topbanner h2 {
+	font-size: .8em;
+	margin: 0em;
+}
+
+header.topbanner ul {
+	font-size: .75em;
+	margin: 0em;
+	padding: 0em;
+}
+
+li {
+	margin-right: 16px;
+}
+
+th, td {
+	border-width: 0;
+	padding: 8px;
+}
+
+table {
+	display: table;
+	font-size: 80%;
+	margin-bottom: 0;
+	overflow-x: auto;
+}
+
+tr td:not(:first-of-type) {
+	border-left: 1px solid whitesmoke;
+}
+
+tr td:nth-of-type(3), tr td:nth-of-type(4), tr td:nth-of-type(5) {
+	text-align: center;
+}
+
+tr td:not(:first-of-type) a {
+	font-size: 125%;
+	width: 100%;
+}
+
+tr td:first-of-type, thead th:first-of-type, tbody th {
+	padding-left: 16px;
+}
+
+tr td:last-of-type, thead th:last-of-type, tbody th {
+	padding-right: 16px;
+}
+
+table tr:last-of-type td {
+	padding-bottom: 16px;
+}
+
+footer {
+	background: #FD3D3D;
+	color: white;
+	font-size: smaller;
+	margin-top: 0;
+	padding: 0.5em;
+}
+
+footer a {
+	color: white;
+	font-weight: bold;
+}
+}

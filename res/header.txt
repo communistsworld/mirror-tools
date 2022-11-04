@@ -1,0 +1,5 @@
+<div class=title>
+     <h2>marxists.xyz</h2>
+     <a href="/index.html"><img src="/res/mel.svg" alt="marxists.xyz" width="200"></a>
+     <p>Site currently under heavy maintenance and testing of a new backend.</p>
+</div>
