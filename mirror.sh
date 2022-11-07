@@ -1,5 +1,5 @@
 #!/bin/sh
-# marxists.xyz makescript
+# communists.world makescript
 # forked from github.com/redtexts/mirror-tools 
 # in the public domain, 2018-
 
@@ -125,7 +125,7 @@ pandoc -v | awk 'NR == 1 { exit $2 < 2 }' ||\
 which awk 2>&1 >/dev/null || errcho "\"awk\" not installed!"
 
 # start setup (ensure $MCONF exists and then load it)
-# echo "${bold}::: mirror.sh - create, maintain and update a marxists.xyz mirror${reset}"
+# echo "${bold}::: mirror.sh - create, maintain and update a communists.world mirror${reset}"
 if [ ! -e $AUTO ]; then
 	if [ -e $MCONF ]; then
 		printf "Previous configuration file found, do you want to use it again [Y/n]? "

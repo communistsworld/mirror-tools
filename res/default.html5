@@ -75,7 +75,7 @@ $endif$
 $body$
 </article>
 <footer>
-	marxists.xyz mirror:
+	communists.world mirror:
 	<a href="..">home</a>
 	$if(WMAST)$
 	| <a href="$WMAST$">web master</a>

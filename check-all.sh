@@ -1,5 +1,5 @@
 #!/bin/sh
-# marxists.xyz text linter metascript
+# communists.world text linter metascript
 # forked from github.com/redtexts/mirror-tools 
 # in the public domain, 2020-
 

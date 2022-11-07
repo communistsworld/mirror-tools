@@ -124,7 +124,7 @@ $description$
 \end{abstract}
 $endif$
 $if(brand)$
-\href{https://marxists.xyz}{\emph{marxists.xyz}}
+\href{https://communists.world}{\emph{communists.world}}
 $endif$
 
 $if(use-toc)$

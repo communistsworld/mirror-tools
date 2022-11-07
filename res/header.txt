@@ -1,15 +1,15 @@
 <header class="topbanner">
 <nav>
 <div class=title>
-<a href="/index.html"><img src="/res/mel.svg" alt="marxists.xyz" width="200"></a>
+<a href="/index.html"><img src="/res/mel.svg" alt="communists.world" width="200"></a>
 </div>
-<h1><a href="index.html">marxists.xyz</a></h1>
+<h1><a href="index.html">World Communists Archive</a></h1>
 <ul>
-<li><a href="./index.html#thetexts">Texts</a></li>
-<li><a href="./index.html#aboutredtexts">About</a></li>
-<li><a href="./index.html#links">Links</a></li>
-<li><a href="https://github.com/neueleninlekture/texts">Github</a></li>
+<li><a href="./index.html">Home</a></li>
+<li><a href="./search.html">Search</a></li>
+<li><a href="./links.html">Links</a></li>
+<li><a href="./about.html">About</a></li>
 </ul>
-<p>Site currently under heavy maintenance and testing of a new backend.</p>
+<p>Site currently under <em>heavy</em> maintenance. New backend being tested..</p>
 </nav>
 </header>

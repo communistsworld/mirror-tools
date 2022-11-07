@@ -61,8 +61,8 @@ $description$
 $endif$
 $if(brand)$
 .CD
-.pdfhref W -D "https://marxists.xyz" -A "\c"
- -- "\fImarxists.xyz\fP"
+.pdfhref W -D "https://communists.world" -A "\c"
+ -- "\fIcommunists.world\fP"
 $endif$
 .1C
 $body$
