@@ -19,7 +19,7 @@ D_HTML="./html/"
 D_EPUB="./epub/"
 D_MOBI="./mobi/"
 D_PDF="./pdf/"
-GIT_TXT="https://github.com/neueleninlekture/texts"
+GIT_TXT="https://github.com/communistsworld/texts"
 
 # variables
 MAKEOPTS="-s -k"
