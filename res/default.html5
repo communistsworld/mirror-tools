@@ -75,10 +75,10 @@ $endif$
 $body$
 </article>
 <footer>
-	communists.world mirror:
+	World Communists Archive:
 	<a href="..">home</a>
 	$if(WMAST)$
-	| <a href="$WMAST$">web master</a>
+	| <a href="$WMAST$">about</a>
 	$endif$
 </footer>
 </body>

@@ -59,6 +59,6 @@ END {
 		print "<footer>"
 		print "<a href=\".\">home</a>"
 		if (WMAST)
-			print "| <a href=\"" WMAST "\">web master</a>"
+			print "| <a href=\"" WMAST "\">about</a>"
 		print "</footer>"
 } 

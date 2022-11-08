@@ -52,6 +52,6 @@ END {
 		print "<a href=\"https://github.com/neueleninlekture/mirror-tools\">mirror tools</a>"
 		print "| <a href=\"keywords.html\">keywords</a>"
 		if (WMAST)
-			print "| <a href=\"" WMAST "\">web master</a>"
+			print "| <a href=\"" WMAST "\">about</a>"
 		print "</footer>"
 }
